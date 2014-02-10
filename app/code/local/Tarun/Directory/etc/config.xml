@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Tarun_Directory>
+            <version>1.0</version>
+        </Tarun_Directory>
+    </modules>
+    <global>
+        <currency>
+            <import>
+                <services>
+                    <yahoofinance>
+                        <name>Yahoo Finance</name>
+                        <model>Tarun_Directory_Model_Currency_Import_Yahoofinance</model>
+                    </yahoofinance>
+                </services>
+            </import>
+        </currency>
+    </global>
+</config>
